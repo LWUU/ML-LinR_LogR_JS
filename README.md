@@ -34,10 +34,10 @@ var reg = new ML.LinRM({});
 ```
 Logistic regression are able to distinguish two items or multiple items.
 ```js
-//gradient descent approach
+//two items
 var log = new ML.LogR({});
 
-//Vectorization approach
+//multiple items
 var log = new ML.MLogR({});
 ```
 ### Hyper-parameters setting
