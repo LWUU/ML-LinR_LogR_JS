@@ -41,7 +41,7 @@ var log = new ML.LogR({});
 var log = new ML.MLogR({});
 ```
 ### Hyper-parameters setting
-Although the defination of the hyper-parameters is optional as the default values have been specified already, you can srill define them in the function reg.LinR({}) in the code above. The default values are used as input, you can also check the code the more details.
+Although the definition of the hyperparameters is optional as the default values have been specified already, you can still define them in the function reg.LinR({}) in the code above. The default values are used as input, you can also check the code the more details. 
 ```js
 var reg = new ML.LinR({
     iterations: 1000,
