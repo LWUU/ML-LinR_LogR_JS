@@ -1,4 +1,4 @@
-# ML_JS
+# ML-LinR_LogR_JS
 This is a basic machine learning library for linear and logistic regression, the fundamental hyper-parameter settings (learning rate, lambda, iterations) are included. 
 
 You can use it by copying the entire function to the source code or create your own library by modifying it.
