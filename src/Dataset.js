@@ -12,14 +12,13 @@ ML = ML || {};
         if (!config.lambda) {
             config.lambda = 0.0;
         }
-        if (!config.trace) {
-            config.trace = false;
+        if (!config.print_cost) {
+            config.print_cost = false;
         }
-
         this.iterations = config.iterations;
         this.learning_rate = config.learning_rate;
         this.lambda = config.lambda;
-        this.trace = config.trace;
+        this.print_cost = config.print_cost;
     };
     LinR.prototype.train = function (data) {
         println("Linear regression start");
@@ -50,7 +49,7 @@ ML = ML || {};
             for (var d = 0; d < this.dim; ++d) {
                 this.theta[d] = this.theta[d] - this.learning_rate * Vx[d];
             }
-            if (this.trace) {
+            if (this.print_cost) {
                 println('cost at iteration ' + k + ': ' + this.cost(X, Y, this.theta));
             }
         }
