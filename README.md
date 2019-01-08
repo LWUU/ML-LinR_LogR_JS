@@ -3,7 +3,7 @@ This is a basic machine learning library for linear and logistic regression, the
 
 You can use it by copying the entire function to the source code or create your own library by modifying it.
 
-I highly expected the room for the algorithm improvement. In case you (lucky enough) find a bug or have any feedback positive or negative, I am really looking forward to knowing it, and of course will try my best to make this work better!
+I highly expected the room for the algorithm improvement. In case you (lucky enough) find a bug or have any feedback positive or negative, I am really looking forward to knowing it, and of course will make this work more robust and efficient!
 
 ### Get started by training the first model
 ```js
@@ -42,7 +42,7 @@ var log = new ML.LogR({});
 var log = new ML.MLogR({});
 ```
 ### Hyper-parameters setting
-Although the definition of the hyperparameters is fully optional as the default values have been specified already, you can  define them in the function reg.LinR({}) in the code above. The default values are used as input, you can also check the code the more details. 
+Although the definition of the hyperparameters is fully optional as the default values have been specified already, you can  define them in the function reg.LinR({}) in the code above. The default values are used as input for the following code, you can also check the source code the more details.
 ```js
 var reg = new ML.LinR({
     iterations: 1000,
