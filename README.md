@@ -6,7 +6,7 @@ You can use it by copying the entire function to the source code or create your 
 I expected there is a lot of room to be improved for the algorithm. In case you (lucky enough to) find any of the bugs or have any feedback positive or negative, I am really looking forward to knowing it, and will try my best to make this work better!
 ### Get started by training the first model
 ```js
-//Load the training sets
+//Load the training sets (this is an example)
 var train_X = train_Y();
 var train_X = train_Y();
 
